@@ -1,0 +1,146 @@
+.tour__content img {
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.tour__info, .tour__reviews {
+    padding: 2rem;
+    border-radius: .5rem;
+    border: 1px solid rgba(229, 231, 235);
+}
+
+.tour__top h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.tour__top h3 span {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.price__info h5 {
+    font-size: 3rem !important;
+    font-weight: 400;
+    color: var(--secondary-color) !important;
+}
+
+.price__info span {
+    font-size: 1.4rem;
+    font-weight: normal;
+}
+
+.tour__info h2 {
+    font-size: 1.5rem
+}
+
+.tour__info span {
+    font-style: 1rem;
+    color: var(--text-color);
+}
+
+.tour__info span i {
+    font-size: 1.1rem;
+    color: var(--heading-color);
+}
+
+.tour__extra-details {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.tour__info h5 {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.tour__info p {
+    line-height: 30px;
+    font-size: 1.rem;
+    color: var(--text-color);
+}
+
+.rating__group span {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.tour__reviews .rating__group {
+    margin-top: 1.5rem;
+}
+
+.tour__reviews .rating__group span {
+    font-size: 1rem;
+}
+
+.review__input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 0.7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 50px;
+    border: 1px solid var(--secondary-color);
+}
+
+.review__input input {
+    border: none;
+    font-size: .9rem;
+    padding: 0.5rem 0;
+    color: var(--text-color);
+}
+
+.review__input input:focus {
+    outline: none;
+}
+
+.user__reviews {
+    margin-top: 2.5rem;
+}
+
+.review__item {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    margin-bottom: 1rem;
+    padding: .6rem;
+}
+
+.review__item img {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.review__item h5 {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.review__item p {
+    color: var(--text-color);
+    font-size: 0.9rem;
+    margin-top: .3rem;
+}
+
+.review__item h6 {
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.review__item span i {
+    font-size: 1.1rem;
+    color: var(--secondary-color);
+}
+
+.review__item span {
+    font-weight: 500;
+}
